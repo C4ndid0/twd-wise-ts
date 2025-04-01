@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +23,8 @@
     "ts-jest": "^29.3.0",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.28.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
   }
 }
