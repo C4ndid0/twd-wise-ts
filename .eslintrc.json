@@ -17,5 +17,7 @@
     "plugins": [
         "@typescript-eslint"
     ],
-    "rules": {}
+    "rules": {
+    "@typescript-eslint/strinct-boolean-expressions": "off"
+    }
 }
